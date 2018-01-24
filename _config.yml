@@ -1,2 +1,2 @@
-source:      _source
+source:      _site
 destination: _deploy
