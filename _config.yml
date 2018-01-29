@@ -39,12 +39,12 @@ author:
     - name: instagram
       url:
     - name: linkedin
-      url:
-    - name: stackoverflow
-      url:
-    - name: twitter
-      url:
-    - name: website
+      url: https://www.linkedin.com/in/jared-porter-9a15a320/
+    - name: google
+      url: https://plus.google.com/u/0/+JPorterX
+    - name: youtube
+      url: https://www.youtube.com/channel/UC2tBDRT6DsoCCko6A8gyEYg
+    - name: aboutme
       url: https://thejporter.com
 home:
   section1: <h1>Welcome</h1>
