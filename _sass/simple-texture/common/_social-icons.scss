@@ -44,10 +44,10 @@ $size: 48;
         background-color: #D14836;
     }
 
-    .ico-instagram {
-        @include get-ico-image(instagram);
+    .ico-aboutme {
+        @include get-ico-image(aboutme);
 
-        background-color: #E4405F;
+        background-color: #991010;
     }
 
     .ico-linkedin {
@@ -62,10 +62,10 @@ $size: 48;
         background-color: #FFA500;
     }
 
-    .ico-stackoverflow {
-        @include get-ico-image(stackoverflow);
+    .ico-youtube {
+        @include get-ico-image(youtube);
 
-        background-color: #FE7A16;
+        background-color: #800000;
     }
 
     .ico-twitter {
@@ -74,9 +74,9 @@ $size: 48;
         background-color: #1DA1F2;
     }
 
-    .ico-vk {
-        @include get-ico-image(vk);
+    .ico-google {
+        @include get-ico-image(google);
 
-        background-color: #6383A8;
+        background-color: #00ABFF;
     }
 }
