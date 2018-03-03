@@ -16,10 +16,18 @@
 <body>
     {% include common/notices.html %}
     {% include blog/overlay.html %}
+    <div class="wrapper">
+            {% include about/sidebar.html %}
 
+            <div class="main-wrapper">
+
+               {{content}}
+
+            </div><!--//main-body-->
+        </div>
     <div id="page" class="hentry">
-        {% include blog/header.html %}
-        
+        {% include about/header.html %}
+
         <div class="body animated fadeInDown" role="main">
             <div class="unit-body">
                 <div class="unit-inner unit-body-inner">
@@ -29,10 +37,10 @@
                 </div>
             </div>
         </div>
-        {% include blog/footer.html %}
+        {% include about/footer.html %}
     </div>
 
-    {% include blog/scripts.html %}
+    {% include about/scripts.html %}
 </body>
 
 </html>
