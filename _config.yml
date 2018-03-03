@@ -24,8 +24,8 @@ sass:
 url: https://bigdjrp.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
 title: The J Porter
-name: Jared R Porter # added for aboutme
-tagline: Curious hacker #added for aboutme
+#name: Jared R Porter # added for aboutme
+#tagline: Curious hacker #added for aboutme
 description: "Engage"
 keywords: 'hacker,hacking tools, penetration, pentester'
 author:
