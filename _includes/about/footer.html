@@ -1,27 +1,6 @@
-<footer class="the-footer">
-    <div class="unit-foot">
-        <div class="unit-inner unit-foot-inner">
-            <div class="misc vcard">
-                <div class="about">
-                    <h4><a href="{{ site.paths.home | relative_url }}">{{ site.data.i18n[site.lang].about }}</a></h4>
-                    {% if site.blog.footer_content %}
-                        <p>{{ site.blog.footer_content }}</p>
-                    {% endif %}
-                    {{ site.data.i18n[site.lang].theme_info }}
-                </div>
-                <div class="social-links">
-                    {% if site.author.email %}
-                        <a class="ico-gmail" href="mailto:{{ site.author.email }}" rel="me" target="_blank" title="email"></a>
-                    {% endif %}
-                    <a class="ico-rss" href="{{ "/feed.xml" | relative_url }}" rel="me" target="_blank" title="feed"></a>
-                    {% for link in site.author.social_links %}
-                        {% if link.url %}
-                            <a class="ico-{{ link.name }}" href="{{ link.url }}" rel="me" target="_blank" title="{{ link.name }}"></a>
-                        {% endif %}
-                    {% endfor %}
-                </div>
-            </div>
-        </div>
-    </div>
-    <a href="#" class="internal back-to-top">{{ site.data.i18n[site.lang].back_to_top }}</a>
-</footer>
+<footer class="footer">
+    <div class="text-center">
+        <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+        <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a> for developers</small>
+    </div><!--//container-->
+</footer><!--//footer-->

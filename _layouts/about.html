@@ -1,20 +1,14 @@
+---
+layout: compress
+---
 <!DOCTYPE html>
-
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js" lang="{{ site.lang }}">
-<!--<![endif]-->
-
-<head>
-    {% include common/meta.html %}
-    <link href='{{ site.baseurl }}/assets/stylesheets/blog.css' rel="stylesheet" type="text/css">
-    {% include common/libraries.html %}
-</head>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+{% include header.html %}
 
 <body>
-  
+
     <div class="wrapper">
         {% include sidebar.html %}
 
