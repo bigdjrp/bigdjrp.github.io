@@ -58,11 +58,11 @@ blog:
   footer_content: See more of my work here <a href="https://thejporter.com/">TheJPorter</a>.
 
 #-------------added this section for aboutme SIDEBAR------------>
-email: jrp4wn@gmail.com
-phone: 801 XXX XXXX
-website: thejporter.com #do not add http://
-linkedin: jared-porter-9a15a320
-github: bigdjrp
+#email: jrp4wn@gmail.com
+#phone: 801 XXX XXXX
+#website: thejporter.com #do not add http://
+#linkedin: jared-porter-9a15a320
+#github: bigdjrp
 
 disqus:
   shortname: # e.g. yizeng
