@@ -54,10 +54,6 @@ blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License.
   footer_content: See more of my work here <a href="https://thejporter.com/">TheJPorter</a>.
-about:
-  title: My resume
-  baseurl: '/about'
-  about: False
 
 disqus:
   shortname: # e.g. yizeng
