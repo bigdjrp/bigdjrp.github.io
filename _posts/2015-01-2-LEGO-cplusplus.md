@@ -5,7 +5,7 @@ description: "A Special Project involving LEGO Mindstorms and C C++"
 categories: project
 tags: [SUU, hack, LEGO, reverse engineering]
 redirect_from:
-  - /2014/04/22/
+  - /2015/01/2/
 ---
 Taking on the task to program the LEGO Mindstorms robot using only C or C++ is not quite as simple as one may think. The LEGO Ev3 does support the ability and documentation on how to do so is not trivial. Programming the robot was a challenge given to my colleague and I as part of a special project for Dr. Michael Grady at Southern Utah University. While both Travis Floyd and I were in our undergraduate, Dr. Grady challenged us with projects that hadn't been completed to his liking.
 Our approach to this project involved breaking (bricking) the 'brick' (the brains) in an attempt to gather more information about the instruction set architecture design and any and all information relating to the programming. It seems that when there is a desire to gain more information about a device with a USB port, kali Linux or any distro of Linux is my go to. In order to gather useful information we need to first build and install GNU ARM (distro of GNU Compiler Collection).
