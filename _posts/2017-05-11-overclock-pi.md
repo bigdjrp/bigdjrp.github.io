@@ -9,7 +9,8 @@ redirect_from:
 ---
 A feature that was a big hit with Raspberry Pi versions prior to Pi 3 was the ability to overclock the Pi using the raspi-config GUI. This feature is no longer available using the GUI, however it is simple to circumvent by editing the /boot/config.txt file.
 
-![smiley](https://bigdjrp.github.io/assets/images/Raspberry_Pi_3_illustration.svg.png =200x)
+<img src="Raspberry_Pi_3_illustration.svg.png" alt="raspberrypi" style="width: 200px;"/>
+![raspberrypi](https://bigdjrp.github.io/assets/images/Raspberry_Pi_3_illustration.svg.png)
 
 ## Overclock settings
 Open a terminal and navigate to the /boot/config.txt file
