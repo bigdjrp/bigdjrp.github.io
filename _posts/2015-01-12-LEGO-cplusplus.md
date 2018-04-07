@@ -2,7 +2,7 @@
 layout: post
 title: "Programming LEGO Mindstorms using C|C++"
 description: "A Special Project involving LEGO Mindstorms and C C++"
-categories: project
+categories: [project]
 tags: [SUU, hack, LEGO, reverse engineering]
 redirect_from:
   - /2015/01/12/
