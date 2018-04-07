@@ -15,7 +15,7 @@ redirect_from:
 
 # General Usage
 
-This is a normal paragraph.
+This is a normal paragraph
 
 This is [a link](http://yizeng.me) to my homepage.
 A [link](http://yizeng.me/blog "Yi Zeng's Blog") can also have a title.
