@@ -67,9 +67,6 @@ $('.the-footer').on('click', '.social-links a', function(event) {
 $('.unit-article').on('click', '.tag_box.categories a', function(event) {
     sendGaEvent('Blog', 'Click Category', event.currentTarget);
 });
-$('.unit-article').on('click', '.tag_box.abouts-me a', function(event) {
-    sendGaEvent('Blog', 'Click About Me', event.currentTarget);
-});
 $('.unit-article').on('click', '.tag_box.tags a', function(event) {
     sendGaEvent('Blog', 'Click Tag', event.currentTarget);
 });
@@ -87,9 +84,6 @@ $('.unit-article').on('click', '.meta .list-tag a', function(event) {
 });
 $('.unit-article').on('click', '.meta .list-category', function(event) {
     sendGaEvent('Post', 'Click Category', event.currentTarget);
-});
-$('.unit-article').on('click', '.meta .list-about-me', function(event) {
-    sendGaEvent('Post', 'Click About Me', event.currentTarget);
 });
 $('.unit-foot').delegate('.addthis_toolbox .btn-share-post', 'click', function(event) {
     sendGaEvent('Post', 'Share Post', event.currentTarget);

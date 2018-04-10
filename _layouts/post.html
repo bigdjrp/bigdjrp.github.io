@@ -42,10 +42,6 @@ layout: blog
                             <li class="list-head">{{ site.data.i18n[site.lang].tags }}: </li>
                             {% assign tags_list = page.tags | sort %} {% include helpers/tags_list %}
                         </ul>
-                        <ul class="list-about-me list-linear">
-                            <li class="list-head">{{ site.data.i18n[site.lang].abouts-me }}: </li>
-                            {% assign abouts-me_list = page.abouts-me | sort %} {% include helpers/abouts-me_list %}
-                        </ul>
                     </div>
                     <div itemprop="articleBody">
                         {{ content }}
