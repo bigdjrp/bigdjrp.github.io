@@ -1,0 +1,16 @@
+HTTrack3.49-2+htsswf+htsjava launched on Tue, 10 Apr 2018 09:29:41 at https://sites.google.com/site/thejportercsis3150cplusplus/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://sites.google.com/site/thejportercsis3150cplusplus/ -O1 "C:\My Web Sites\https___sites.google.com_site_thejportercsis3150cplusplus_" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+09:32:45	Warning: 	Link https://sites.google.com/site/thejportercsis3150cplusplus/system/app/pages/reportAbuse not scanned (follow robots meta tag)
+09:32:45	Error: 	"Bad Request" (400) at link https://sites.google.com/site/thejportercsis3150cplusplus/_/tz (from https://sites.google.com/site/thejportercsis3150cplusplus/)
+09:33:12	Error: 	"Not Found" (404) at link https://accounts.google.com/POST (from https://accounts.google.com/ServiceLogin?service=jotspot&passive=1209600&continue=https://sites.google.com/site/sites/system/app/images/icon_plusone.png&followup=https://sites.google.com/site/sites/system/app/images/icon_plusone.png)
+09:33:12	Error: 	"Not Found" (404) at link https://accounts.google.com/GET (from https://accounts.google.com/ServiceLogin?service=jotspot&passive=1209600&continue=https://sites.google.com/site/sites/system/app/images/icon_plusone.png&followup=https://sites.google.com/site/sites/system/app/images/icon_plusone.png)
+09:33:17	Error: 	"Not Found" (404) at link docs.google.com/images/env.png (from https://sites.google.com/site/thejportercsis3150cplusplus/_/rsrc/1522769309000/system/app/css/camelot/error.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 12 seconds : 279 links scanned, 273 files written (13936669 bytes overall) [7992916 bytes received at 31717 bytes/sec], 8762888 bytes transferred using HTTP compression in 188 files, ratio 27%
+(4 errors, 1 warnings, 0 messages)
