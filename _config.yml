@@ -26,11 +26,11 @@ baseurl: # the subpath of your site, e.g. /blog
 title: Home
 description: "Engage"
 keywords: 'hacker, hacking tools, penetration, pentester'
-author:
+author: Jared R Porter
   name:
   job_title:
   location:
-  email:
+  email: bigdjrp@gmail.com
   social_links:
     - name: facebook
       url:
@@ -66,4 +66,4 @@ paths:
   blog: /blog/
   categories: /blog/categories/
   tags: /blog/tags/
-  about: /blog/about
+  about: /blog/about/
