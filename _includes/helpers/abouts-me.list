@@ -1,0 +1,17 @@
+{% if abouts-me_list.first[0] == null %}
+    {% for about-me in abouts-me_list %}
+        <li>
+            <a href="{{ site.paths.abouts-me | relative_url }}#{{ about-me | replace:' ','-' }}" title="{{ about-me | join: "/" }}">
+            {{ about-me | join: "/" }} <span>{{ site.abouts-me[about-me].size }}</span></a>
+        </li>
+    {% endfor %}
+{% else %}
+    {% for about-me in abouts-me_list %}
+        <li>
+            <a href="{{ site.paths.abouts-me | relative_url }}#{{ about-me[0] | replace:' ','-' }}" title="{{ about-me[0] | join: "/" }}">
+            {{ about-me[0] | join: "/" }} <span>{{ about-me[1].size }}</span></a>
+        </li>
+    {% endfor %}
+{% endif %}
+
+{% assign abouts-me_list = nil %}
