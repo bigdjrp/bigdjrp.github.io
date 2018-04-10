@@ -5,8 +5,5 @@ header: Connect with me
 description: "This page shows a list of information about me."
 group: navigation
 ---
-{% capture about-me %}
-    {% for about-me in site.categories %}
-        {{ about-me[0] }}
-    {% endfor %}
-{% endcapture %}
+{% assign posts_collate = site.posts %}
+{% include helpers/posts_collate %}

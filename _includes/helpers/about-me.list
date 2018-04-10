@@ -1,0 +1,17 @@
+{% if about-me_list.first[0] == null %}
+    {% for category in about-me_list %}
+        <li>
+            <a href="{{ site.paths.about-me | relative_url }}#{{ category | replace:' ','-' }}" title="{{ category | join: "/" }}">
+            {{ category | join: "/" }} <span>{{ site.about-me[category].size }}</span></a>
+        </li>
+    {% endfor %}
+{% else %}
+    {% for category in about-me_list %}
+        <li>
+            <a href="{{ site.paths.about-me | relative_url }}#{{ category[0] | replace:' ','-' }}" title="{{ category[0] | join: "/" }}">
+            {{ category[0] | join: "/" }} <span>{{ category[1].size }}</span></a>
+        </li>
+    {% endfor %}
+{% endif %}
+
+{% assign about-me_list = nil %}
