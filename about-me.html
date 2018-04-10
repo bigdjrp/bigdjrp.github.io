@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+
+  <!-- Meta -->
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Jared R. Porter">
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/default.min.css">
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="Content-Style-Type" content="text/css" />
+  <style type="text/css">
+
+  /* ======= Base ======= */
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: #545E6C;
+    background: #f5f5f5;
+    font-size: 14px;
+    padding: 30px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  h1,  h2,  h3,  h4,  h5,  h6 {
+    font-weight: 700;
+  }
+  a {
+    color: #2d7788;
+    font-weight: 500;
+    text-decoration: none;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+  }
+  a:hover {
+    text-decoration: underline;
+    color: #1a454f;
+  }
+  a:focus {
+    text-decoration: none;
+  }
+  p {
+    line-height: 1.5;
+  }
+  pre, code {
+    padding:0px 0px 0px 0px;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    webkit-box-sizing:border-box;
+    display:block;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+    width:100%; overflow-x:auto;
+  }
+  hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(222, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  .wrapper {
+    background: #42A8C0;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+    -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .sidebar-wrapper {
+    background: #42A8C0;
+    position: absolute;
+    right: 0;
+    width: 285px;
+    height: 100%;
+    min-height: 800px;
+    color: #fff;
+  }
+  .sidebar-wrapper a {
+    color: #fff;
+  }
+  .sidebar-wrapper .widget-tag a {
+    display:inline-flex;
+    margin:8px 5px 0 0;
+    padding:5px 5px;
+    border:2px solid rgba(0, 0, 0, 0.1);
+    text-transform:capitalize;
+    font-size:12px !important;
+    line-height:100%
+  }
+  .sidebar-wrapper .widget-tag {
+    width: 235px;
+    padding: 0px 0px 0px 0px;
+    float:none;
+  }
+  .sidebar-wrapper .profile-container {
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;
+    color: #fff;
+  }
+  .sidebar-wrapper .profile-container img {
+    padding: 0px;
+    width: 160px;
+    border-radius: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  .sidebar-wrapper .profile-container .box:hover {
+    width:490px;
+    height:490px;
+  }
+  .sidebar-wrapper .name {
+    font-size: 32px;
+    font-weight: 900;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  .sidebar-wrapper .tagline {
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .sidebar-wrapper .profile {
+    margin-bottom: 15px;
+  }
+
+.sidebar-wrapper .container-block {
+  padding: 30px;
+}
+.sidebar-wrapper .container-block .fa-ul{
+  vertical-align: middle;
+  line-height: 30px;
+  margin-bottom: 0 !important;
+  text-align: center;
+}
+.sidebar-wrapper .career-container {
+  margin-top: 0;
+  margin-bottom: 0px;
+  text-align: center;
+  padding: 0px 10px 0px 10px;
+}
+.sidebar-wrapper .container-block-title {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 0px !important;
+  margin-bottom: 5px;
+}
+.sidebar-wrapper .languages-container .lang-desc {
+  color: rgba(255, 255, 255, 0.6);
+}
+.sidebar-wrapper .languages-list {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .languages-list li {
+  margin-bottom: 10px;
+}
+.sidebar-wrapper .languages-list li:last-child {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .interests-list {
+  margin-bottom: 0;
+}
+.sidebar-wrapper .interests-list li {
+  margin-bottom: 10px;
+}
+.sidebar-wrapper .interests-list li:last-child {
+  margin-bottom: 0;
+}
+
+.main-wrapper {
+  background: #fff;
+  padding: 40px 40px;
+  padding-right: 320px;
+}
+.main-wrapper .section-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  color: #2d7788;
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.main-wrapper .section-title .fa {
+  width: 30px;
+  height: 30px;
+  margin-right: 8px;
+  display: inline-block;
+  color: #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  background: #2d7788;
+  text-align: center;
+  padding-top: 8px;
+  font-size: 16px;
+  position: relative;
+  top: -2px;
+}
+.main-wrapper .section {
+  margin-bottom: 10px;
+}
+.main-wrapper .experiences-section .item {
+  margin-bottom: 5px;
+}
+.main-wrapper .experiences-section .meta li {
+  margin-bottom: 0em !important;
+  margin-top: 0em !important;
+}
+.main-wrapper .experiences-section .meta li:last-child {
+  margin-bottom: 0em !important;
+  margin-top: 0em !important;
+}
+.main-wrapper .upper-row {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: .75em;
+}
+
+.main-wrapper .degree::before {
+  content: " ";
+  display: block;
+  border-bottom: 2px solid rgb(53, 134, 155, 0.7);
+}
+.main-wrapper .job-title {
+  color: #3F4650;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+.main-wrapper .degree {
+  color: #3F4650;
+  font-size: 16px;
+  margin-top: 0px;
+  margin-bottom: -.1em;
+  font-weight: 500;
+}
+
+.sidebar-wrapper .item .lang {
+  color: #3F4650;
+  font-size: 20px;
+  font-style: normal;
+  margin-top: 0px;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 0;
+  font-weight: 700;
+}
+
+.main-wrapper .school {
+  margin-bottom: 10px;
+  margin-top: 0;
+  color: #97AAC3;
+}
+.main-wrapper .time {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #97AAC3;
+}
+.main-wrapper .company {
+  margin-bottom: 0px;
+  margin-top: 0px;
+  color: #97AAC3;
+}
+.main-wrapper .project-title {
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+.main-wrapper .projects-section .intro {
+  margin-bottom: 0px;
+}
+.main-wrapper .projects-section .item {
+  margin-bottom: 1em;
+}
+.main-wrapper .projects-section li {
+  margin-left: 1em;
+}
+.main-wrapper .projects-section li:last-child {
+  margin-bottom: .5em;
+}
+
+.main-wrapper .projects-section .item ul {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+.main-wrapper .projects-section .item .fa-ul {
+  margin-top: .1em;
+  margin-bottom: 1em;
+}
+
+#project-list li {
+  margin-left: 1em;
+  list-style: none;
+}
+#project-list li:last-child {
+  margin-bottom: .1em;
+}
+#project-tagline {
+  margin: 0em 0em -1em 2em;
+  color: gray;
+  font-weight: 500;
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) {
+  .sidebar-wrapper {
+    position: static;
+    width: inherit;
+  }
+  .main-wrapper {
+    padding: 30px;
+  }
+  .main-wrapper .time {
+    position: static;
+    display: block;
+    margin-top: 5px;
+  }
+  .main-wrapper .upper-row {
+    margin-bottom: 0;
+  }
+}
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .skillset .level-title {
+    display: inline-block;
+    float: left;
+    width: 30%;
+    margin-bottom: 0;
+  }
+}
+</style>
+</head>
+
+
+<body>
+  <div class="wrapper">
+    <div class="sidebar-wrapper">
+      <div class="profile-container">
+        <img class="profile" src="bigdjrp.github.io/assets/images/profile1_jrp.png" alt="" />
+        <h1 class="name">Jared R Porter</h1>
+        <h3 class="tagline">Experience it. Learn it. Teach it.<h3/>
+        </div><!--//profile-container-->
+        <div class="contact-container container-block">
+            <ul class="fa-ul">
+              <li class="email"><span class="fa-li"><i class="fas fa-at fa-lg"></i></span><a href="mailto: jrp4wn@gmail.com">jrp4wn@gmail.com</a></li>
+              <li class="phone"><span class="fa-li"><i class="fas fa-phone fa-lg"></i></span><a href="tel: 801 509 3621">801 509 3621</a></li>
+              <li class="website"><span class="fa-li"><i class="fas fa-globe fa-lg"></i></span><a href="https://thejporter.com/" target="_blank">thejporter.com</a></li>
+              <li class="linkedin"><span class="fa-li"><i class="fab fa-linkedin fa-lg"></i></span><a href="https://www.linkedin.com/in/jared-porter-9a15a320/" target="_blank">LinkedIn/jporter</a></li>
+              <li class="github"><span class="fa-li"><i class="fab fa-github-alt fa-lg"></i></span><a href="https://bigdjrp.github.io" target="_blank">bigdjrp.github.io</a></li>
+            </ul>
+        </div><!--//profile-container-->
+
+        <div class="career-container container-block">
+          <div class="item" style="margin:5px 5px; text-align:justify;">
+            <p style="display:inline; font-size:20px; text-transform:uppercase; color: #3F4650; font-weight:500;">Career Profile:&emsp;<p style="display:inline; text-align:justify; text-justify:inter-word;">Natural leader who is capable of problem solving efficently and effectively. Possessing the ability to organize, plan, analyze, and implement in a strategically engaging manner. Ability to adapt quickly to changing environments.
+            </p>
+          </p>
+        </div>
+      </div><!--//summary-->
+      <div class="education-container container-block">
+        <h2 class="container-block-title"><i class="fas fa-code"></i>&nbsp;&nbsp;Skills &amp; Proficiency</h2>
+        <div class="item">
+          <h4 class="lang">Java</h4>
+          <div class="w3-light-grey w3-round">
+            <div class="w3-container w3-round w3-red" style="width:95%">Advanced</div>
+          </div>
+        </div><!--//item-->
+        <div class="item">
+          <h4 class="lang">C &amp; C++</h4>
+          <div class="w3-light-grey w3-round">
+            <div class="w3-container w3-round w3-red" style="width:90%">Advanced</div>
+          </div>
+        </div><!--//item-->
+        <div class="item">
+          <h4 class="lang">Python</h4>
+          <div class="w3-light-grey w3-round">
+            <div class="w3-container w3-round w3-red" style="width:90%">Intermediate</div>
+          </div>
+        </div><!--//item-->
+        <div class="item">
+          <h4 class="lang">Bash</h4>
+          <div class="w3-light-grey w3-round">
+            <div class="w3-container w3-round w3-red" style="width:85%">Advanced</div>
+          </div>
+        </div><!--//item-->
+        <div class="item">
+          <h4 class="lang">Powershell</h4>
+          <div class="w3-light-grey w3-round">
+            <div class="w3-container w3-round w3-red" style="width:85%">Intermediate</div>
+          </div>
+        </div><!--//item-->
+        <div class="item">
+          <h4 class="lang">MySQL</h4>
+          <div class="w3-light-grey w3-round">
+            <div class="w3-container w3-round w3-red" style="width:80%">Advanced</div>
+          </div>
+        </div>
+      </div><!--//item-->
+      <div class="career-container container-block">
+        <div class="item" style="margin:5px 5px; text-align:justify;">
+          <p style="display:inline; font-size:20px; text-transform:uppercase; color: #3F4650; font-weight:500;">Career Goal:&emsp;<p style="display:inline; text-align:justify; text-justify:inter-word;">The time has come to enhance my knowledge and experience by expanding my professional network and obtaining employment. By learning something new each and every day, having a hunger for wisdom, and a desire to seek, I am teachable.</p></p>
+        </div>
+      </div><!--//summary-->
+      <div class="career-container container-block">
+        <div class="widget-tag">
+          <a>Kali Linux</a><a>NIST / FIPS</a><a>Palo Alto</a><a>SANS</a><a>IDS</a><a>white-box</a><a>black-box</a><a>VMWare</a><a>BRO / SNORT</a><a>security information event management</a>
+        </div>
+      </div>
+    </div><!--//sidebar-container-->
+    <div class="main-wrapper">
+      <section class="section experiences-section">
+        <h2 class="section-title"><i class="fas fa-graduation-cap"></i>&nbsp;&nbsp;Education</h2>
+        <div class="item">
+          <div class="meta">
+            <div class="upper-row">
+              <div class="degree">MS in Cyber Security</div>
+              <div class="time">2017 - Present</div>
+            </div><!--//upper-row-->
+            <div class="school">Southern Utah University</div>
+          </div><!--//meta-->
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <div class="degree">BS in Information Systems</div>
+                <div class="time">2014 - 2018</div>
+              </div><!--//upper-row-->
+              <div class="school">Southern Utah University<br>Minor:
+                <span style="padding-left:.9em; color:teal">Computer Science
+                </span><br>
+                <span  style="padding-left:4em; color:teal">Management
+                </span>
+              </div>
+            </div><!--//meta-->
+          </div><!--//item-->
+          <div class="item">
+            <div class="school">
+              <div class="upper-row">
+                <div class="degree">AA in Culinary Arts</div>
+                <div class="time">2002 - 2004</div>
+              </div><!--//upper-row-->
+              <div class="meta">Western Culinary Institute</div>
+            </div><!--//meta-->
+          </div><!--//item-->
+        </section><!--//section-->
+
+        <section class="section experiences-section">
+          <h2 class="section-title"><i class="fa fa-briefcase"></i>&nbsp;&nbsp;Experiences</h2>
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Tutor (Peer | Private)</h3>
+                <div class="time">2012 - Present</div>
+              </div><!--//upper-row-->
+              <div class="company">Southern Utah University  |  Cedar City, UT</div>
+            </div><!--//meta-->
+            <div class="details">
+              <p><span style="font-style:italic; font-weight:500">Computer Organization and Architecture</span>
+                <br>Assisted students develop an understanding of the interface between computer software and hardware by using the appropriate level of communication. Topics include processor architecture, computer arithmetic, instruction set architecture, and assembly language.
+              </p>
+              <p><span style="font-style:italic; font-weight:500">Programming Languages</span>
+                <br>Used skills developed through personal research, to teach students several different programming languages. Lessened fear and anxiety towards programming by helping students set, navigate, and accomplish milestones.
+              </p>
+            </div><!--//details-->
+          </div><!--//item-->
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Operations Manager</h3>
+                <div class="time">2014 - 2018</div>
+              </div><!--//upper-row-->
+              <div class="company">Two Tycoons LLC  |  Cedar City, UT</div>
+            </div><!--//meta-->
+            <div class="details">
+              <p>Dedicated to the challenge of streamlining production along with maintaining an effecient, cost effective operation. Honed in business objectives by implementing monitoring devices and software for remote management.</p>
+            </div><!--//details-->
+          </div><!--//item-->
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Account Manager</h3>
+                <div class="time">2008 - 2014</div>
+              </div><!--//upper-row-->
+              <div class="company">TruCo Enterprises  |  Salt Lake City, UT</div>
+            </div><!--//meta-->
+            <div class="details">
+              <p>Successfully managed over a quarter million dollars in profitable accounts, developed and implemented programs to aid in relations between clients and business. Maintained relationships with clients that fostered additional business opportunities along with life long friendship.</p>
+            </div><!--//details-->
+          </div><!--//item-->
+          <div class="item">
+            <div class="meta">
+              <div class="upper-row">
+                <h3 class="job-title">Sous Chef</h3>
+                <div class="time">2004 - 2008</div>
+              </div><!--//upper-row-->
+              <div class="company"><a href="https://www.google.com/maps/uv?hl=en&amp;pb=!1s0x874d9a7ac96a9593:0xa970107d873c6d9!2m22!2m2!1i80!2i80!3m1!2i20!16m16!1b1!2m2!1m1!1e1!2m2!1m1!1e3!2m2!1m1!1e5!2m2!1m1!1e4!2m2!1m1!1e6!3m1!7e115!4shttp://kslutahcounty.cityvoter.com/chef-s-table/biz/647041!5schef%27s+table+orem+-+Google+Search&amp;imagekey=!1e1!2shttp://vp.cdn.cityvoterinc.com/GetImage.ashx?img%3D00/00/05/53/04/16/5530416-1306033.jpg%26ar%3Dmaintain&amp;sa=X&amp;ved=0ahUKEwjk6evLzNTZAhWl5YMKHYnHAEQQoioImAEwCg/">Chef's Table  |  Orem, UT</a></div>
+            </div><!--//meta-->
+            <div class="details">
+              <p>Maintained the highest standards of fine dining by creating exquisite sustence in the form of edibles. Desinged and implemented a budget, menu, and staffing for what became, a key element of the restaurant, called <span style="font-style:italic">Saturday Brunch at The Table.</span></p>
+            </div><!--//details-->
+          </div><!--//item-->
+        </section><!--//section-->
+
+        <section class="section projects-section">
+          <h2 class="section-title"><i class="fa fa-archive"></i>&nbsp;&nbsp;Projects</h2>
+          <div class="item">
+            <span class="project-title"><a href="http://thejporter.com/cyber-defense">Cyber Defense Competitions Club</a></span>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-users fa-sm"></i></span>Assisted as a club officer for 3 years</span></li>
+              <li><span class="fa-li"><i class="fas fa-shield-alt fa-sm"></i></span>1 of 50 teams invited to compete at Build the Shield (Microsoft)</span></li>
+              <li><span class="fa-li"><i class="fas fa-level-up-alt fa-sm"></i></span>Top 3 at NICCDC (NIATEC) 2017</span></li>
+              <li><span class="fa-li"><i class="fas fa-chess-knight fa-sm"></i></span>Competed at RMCCDC 2016, 2017, 2018</span></li>
+              <li><span class="fa-li"><i class="fas fa-crosshairs fa-sm"></i></span>Led team to placing 3rd overall at RMCCDC 2018</span></li>
+            </ul>
+          </div><!--//item-->
+          <div class="item">
+            <span class="project-title"><a href="http://thejporter.com/portfolio" target="_blank">SheTech</a></span>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-terminal fa-sm"></i></span>Presented Workshop <a href="http://shetechexplorer.com/explorer-days/register-now/" target="_blank" style="font-style:italic;">Cybersecurity: Silicon Slopes Here We Come!</a> at SheTech 2018 under Dr. Shalini Kesar at Southern Utah University. Engaged girls on topics including passwords, email accounts, phishing, and social media safe practices</li>
+            </ul>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-terminal fa-sm"></i></span>Teamed up in 2017 with <a href="https://www.dellemc.com/en-us/index.htm" target="_blank" style="font-style:italic;">Dell EMC</a> sponsors in an effort to provide girls with useful information on exciting STEM related career paths.</li>
+            </ul>
+          </div><!--//item-->
+
+          <div class="item">
+            <span class="project-title"><a href="http://thejporter.com/portfolio" target="_blank">Aspirations</a></span>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-hashtag fa-sm"></i></span>Served as an Ambassadar for this unique outreach program. Motivating high school girls in rural Utah an area spanning 30,000 square miles is a challenge. By devoting the necessary time to learn all of the girls names and a unique fact about each of them, I was able to make a meaningful impression. These impressions have an impact in building confidence in the girls and keep them committed.</li>
+            </ul>
+          </div><!--//item-->
+
+          <section class="section projects-section">
+            <h2 class="section-title"><i class="fa fa-chart-line"></i>&nbsp;&nbsp;Research</h2>
+            <div class="item">
+              <span class="project-title"><a href="http://thejporter.com/portfolio" target="_blank">Project Z</a></span>
+              <ul class="fa-ul">
+                <li>An ongoing project that is comprised of a Raspberry Pi and modules used to teach programming to children</li>
+              </ul>
+            </div><!--//item-->
+            <div class="item">
+              <span class="project-title"><a href="http://thejporter.com/portfolio" target="_blank">Hummingbird (BirdBrains Labs)</a></span>
+              <ul class="fa-ul">
+                <li>During this research project it was necessary to improve the periphrials used to teach children. I designed and built a chassis for the circuit board, to allow children the ability to build a functional robot. Scratch and Snap! programming languages were used to teach middle school aged children programming.</li>
+              </ul>
+            </div><!--//item-->
+            <div class="item">
+              <span class="project-title"><a href="http://thejporter.com/portfolio" target="_blank">FLL (FIRST LEGO League)</a></span>
+              <ul class="fa-ul">
+                <li>A twofold research project introducing a local elementary school to FIRST LEGO Leauge, and then providing them with a learning environment to stimulate development in Science, Technology, Engineering, and Mathmatics.</li>
+                <p style="background-color:rgb(66, 168, 192, 0.1); margin:8px; padding:10px;">Under Dr. Dezhi Wu at Southern Utah University, our research titled <a href="http://thejporter.com/portfolio" target="_blank" style="font-style:italic;">Inspiring Youngsters to STEM Fields through FIRST LEGO Robots</a> was featured in the <a href="https://www.suu.edu/excellence/" target="_blank" style="font-style:italic;">Fesitval of Excellence</a> at Southern Utah University.</p>
+                <li>The group of children I coached was the only first year elementary school to qualify to compete at state. The team performed consistent results during each of the three Robot Games.</li>
+              </div><!--//item-->
+            </section><!--//section-->
+          </div><!--//main-body-->
+          <!-- Javascript -->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+          <!-- Latest compiled and minified JavaScript -->
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+          <script>
+          document.addEventListener('DOMContentLoaded', function () {
+            $('nav').on('click', '[data-fa-i2svg]', function () {
+              alert('You clicked the icon itself');
+            });
+          });
+        </script>
+      </body>
+      </html>

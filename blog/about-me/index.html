@@ -1,0 +1,12 @@
+---
+layout: page
+title: About Me
+header: Connect with me
+description: "This page shows a list of information about me."
+group: navigation
+---
+{% capture about-me %}
+    {% for about-me in site.categories %}
+        {{ about-me[0] }}
+    {% endfor %}
+{% endcapture %}
