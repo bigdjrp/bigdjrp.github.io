@@ -66,4 +66,4 @@ paths:
   blog: /blog/
   categories: /blog/categories/
   tags: /blog/tags/
-  about: /blog/about/
+  about: /blog/about
