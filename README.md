@@ -4,7 +4,7 @@
    ```ruby
    source [The JPorter Official Site](https://www.thejporter.com)
    ```
-![smiley](bigdjrp.github.io/assets/images/github_jrp.png)
+![smiley](/assets/images/github_jrp.png)
 
 
 
