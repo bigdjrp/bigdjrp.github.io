@@ -9,9 +9,6 @@
 
 
 
-
-
-
 ### Source for this theme
 The theme is available as open source under the terms of the
 [MIT License](https://github.com/yizeng/jekyll-theme-simple-texture/blob/master/LICENSE).
