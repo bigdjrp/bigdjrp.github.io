@@ -2,7 +2,9 @@
 encoding: UTF-8
 exclude: ["*.gem", "*.gemspec", "Gemfile", "Gemfile.lock", "node_modules", "Rakefile", "starter-kit", "vendor"]
 lang: en # Language code as defined in _data/i18n.yml. en, en-gb, en-us, zh, zh-cn, zh-tw etc.
-permalink: /blog/:year/:month/:day/:title/
+permalink: /:title/
+#permalink: /blog/:year/:month/:day/:title/
+include: ["_pages"]
 
 whitelist: [jekyll-feed, jekyll-redirect-from, jekyll-seo-tag, jekyll-sitemap]
 plugins:
@@ -22,7 +24,7 @@ sass:
 
 # Site Data
 url: https://bigdjrp.github.io/ # the base hostname & protocol for your site, e.g. http://example.com
-baseurl: # the subpath of your site, e.g. /blog
+baseurl:  # the subpath of your site, e.g. /blog
 title: Home
 description: "Engage"
 keywords: 'hacker, hacking tools, penetration, pentester'
@@ -67,5 +69,5 @@ paths:
   categories: /blog/categories/
   tags: /blog/tags/
   about: /blog/about
-  p4wned: /blog/p4wned/
-  pcheck: /blog/pcheck/
+  p4wned: /p4wned/
+  pcheck: /pcheck/
