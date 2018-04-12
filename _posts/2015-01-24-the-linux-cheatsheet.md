@@ -3,7 +3,7 @@ layout: post
 title:  "The Linux CheatSheet"
 date:   2015-01-24 20:12:35 -0700
 categories: [cheatsheet, linux]
-tags: [kali, hacks]
+tags: [kali, hack]
 ---
 * Linux CheatSheet Table of Contents
 {:toc .toc}
