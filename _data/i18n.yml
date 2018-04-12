@@ -27,6 +27,8 @@ en: &en
   tags: 'Tags'
   theme_info:
   view: 'View'
+  p4wned: 'P4wned'
+  pcheck: 'Password Check'
 en-us:
   <<: *en
 en-gb:
