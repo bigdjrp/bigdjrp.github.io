@@ -85,23 +85,33 @@
     height: 100%;
     min-height: 800px;
     color: #fff;
+	float: none;
   }
   .sidebar-wrapper a {
     color: #fff;
+	float: none;
   }
   .sidebar-wrapper .widget-tag a {
-    display:inline-flex;
-    margin:8px 5px 0 0;
-    padding:5px 5px;
+    display:inline-block;
+    margin:8px 5px 1px 1px;
+    padding:5px 5px 5px 5px;
     border:2px solid rgba(0, 0, 0, 0.1);
     text-transform:capitalize;
     font-size:12px !important;
     line-height:100%
+	float:none;
   }
-  .sidebar-wrapper .widget-tag {
+  .sidebar-wrapper .widget-tag::before {
     width: 100%;
-    padding: 0px 0px 0px 0px;
     float:none;
+  }
+  .side-wrapper .widget-tag::after {
+    content: ".";
+    visibility: hidden;
+    display: inline-block;
+    clear: both;
+    height: 0;
+    font-size: 0;
   }
   .sidebar-wrapper .profile-container {
     padding: 30px;
@@ -428,7 +438,7 @@
       </div><!--//summary-->
       <div class="career-container container-block">
         <div class="widget-tag">
-          <a>kali</a><a>NIST</a><a>System Analysis</a><a>social engineering</a><a>Palo Alto</a><a>Project Management</a><a>hacker</a><a>BRO</a><a>SANS</a><a>IDS</a><a>white-box</a><a>black-box</a><a>VMWare</a><a>SNORT</a><a>security information event management</a><a>git</a><a>AlienVault</a><a>ssh</a><a>SOC</a><a>iptables</a><a>Ethical</a><a>Penetration Tester</a>
+          <a>kali</a><a>NIST</a><a>System Analysis</a><a>social engineering</a><a>Palo Alto</a><a>Project Management</a><a>hacker</a><a>BRO</a><a>SANS</a><a>IDS</a><a>white-box</a><a>black-box</a><a>security information event management</a><a>VMWare</a><a>SNORT</a><a>git</a><a>AlienVault</a><a>ssh</a><a>SOC</a><a>iptables</a><a>Ethical</a><a>Penetration Tester</a>
         </div>
       </div>
     </div><!--//sidebar-container-->
