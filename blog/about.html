@@ -91,9 +91,12 @@
     color: #fff;
 	float: none;
   }
+  .sidebar-wrapper .widget-tag {
+  margin: 30px 0 30px 0;
+  }
   .sidebar-wrapper .widget-tag a {
     display:inline-block;
-    margin:8px 5px 1px 1px;
+    margin:3px;
     padding:5px 5px 5px 5px;
     border:2px solid rgba(0, 0, 0, 0.1);
     text-transform:capitalize;
@@ -114,7 +117,7 @@
     font-size: 0;
   }
   .sidebar-wrapper .profile-container {
-    padding: 30px;
+    padding: 10px;
     background: rgba(0, 0, 0, 0.2);
     text-align: center;
     color: #fff;
@@ -134,7 +137,7 @@
   .sidebar-wrapper .name {
     font-size: 32px;
     font-weight: 900;
-    margin-top: 0;
+    margin: 0 0 0 5px;
     margin-bottom: 10px;
   }
   .sidebar-wrapper .tagline {
@@ -169,6 +172,7 @@
     font-weight: 700;
     margin-top: 0px !important;
     margin-bottom: 5px;
+	text-align: center;
   }
   .sidebar-wrapper .languages-container .lang-desc {
     color: rgba(255, 255, 255, 0.6);
@@ -363,6 +367,24 @@
       margin-bottom: 0;
     }
   }
+  blockquote {
+  background: rgb(153, 153, 153, 0.4);
+  border-left: 10px solid #ccc;
+  margin: .5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
 </style>
 </head>
 
@@ -373,7 +395,7 @@
       <div class="profile-container">
         <img class="profile" src="https://bigdjrp.github.io/assets/images/profile1_jrp.png" alt="" />
         <h1 class="name">Jared R Porter</h1>
-        <h3 class="tagline">Experience it. Learn it. Teach it.<h3/>
+        <h3 class="tagline">the devoted existential ethical hacker.<h3/>
         </div><!--//profile-container-->
         <div class="contact-container container-block">
           <ul class="fa-ul">
@@ -441,6 +463,21 @@
           <a>kali</a><a>NIST</a><a>System Analysis</a><a>social engineering</a><a>Palo Alto</a><a>Project Management</a><a>hacker</a><a>BRO</a><a>SANS</a><a>IDS</a><a>white-box</a><a>black-box</a><a>security information event management</a><a>VMWare</a><a>SNORT</a><a>git</a><a>AlienVault</a><a>ssh</a><a>SOC</a><a>iptables</a><a>Ethical</a><a>Penetration Tester</a>
         </div>
       </div>
+	  <div class="career-container container-block">
+	  <h2 class="container-block-title"><i class="fas fa-code"></i>&nbsp;&nbsp;Interesting Facts</h2>
+	  <div class="item">
+	   <p style="font-size:20px; color: #3F4650; font-weight:500;margin-top:0 !important;margin-bottom:0 !important;">One word that describes me:
+	   <p style="margin-top:0 !important;">01101110 01100101 01110010 01100100</p>
+	   </p>
+	   <p style="font-size:20px; color: #3F4650; font-weight:500;margin-top:0 !important;margin-bottom:0 !important;">A favorite quote of mine is:
+	   <blockquote>Sometimes people don't want to hear the truth because they don't want their illusions destroyed
+	   <p>-Friedrich Nietzsche</p>
+	   </blockquote>
+	   </p>
+
+
+	  </div>
+	  </div>
     </div><!--//sidebar-container-->
     <div class="main-wrapper">
       <section class="section experiences-section">
