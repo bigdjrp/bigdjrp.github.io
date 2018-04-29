@@ -374,15 +374,23 @@
   border-left: 10px solid #ccc;
   margin: .5em 10px;
   padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
+  quotes: "\201C";
 }
 blockquote:before {
   color: #ccc;
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
-  margin-right: 0.25em;
+  margin-right: auto;
   vertical-align: -0.4em;
+}
+blockquote:after {
+  color: #ccc;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-left: auto;
+  vertical-align: bottom;
 }
 blockquote p {
   display: inline;
@@ -462,7 +470,8 @@ blockquote p {
       </div><!--//summary-->
       <div class="career-container container-block">
         <div class="widget-tag">
-          <a>kali</a><a>NIST</a><a>System Analysis</a><a>social engineering</a><a>Palo Alto</a><a>Project Management</a><a>hacker</a><a>BRO</a><a>SANS</a><a>IDS</a><a>white-box</a><a>black-box</a><a>security information event management</a><a>VMWare</a><a>SNORT</a><a>git</a><a>AlienVault</a><a>ssh</a><a>SOC</a><a>iptables</a><a>Ethical</a><a>Penetration Tester</a>
+          <a>kali</a><a>NIST</a><a>System Analysis</a><a>social engineering</a><a>Palo Alto</a><a>Project Management</a><a>hacker</a><a>BRO</a><a>SANS</a><a>IDS</a><a>white-box</a><a>black-box</a><a>security information event management</a><a>VMWare</a>
+          <a>SNORT</a><a>git</a><a>AlienVault</a><a>SSH</a><a>SOC</a><a>iptables</a><a>Ethical</a><a>Penetration Tester</a>
         </div>
       </div>
 	  <div class="career-container container-block">
@@ -471,12 +480,16 @@ blockquote p {
 	   <p style="font-size:20px; color: #3F4650; font-weight:500;margin-top:0 !important;margin-bottom:0 !important;">One word that describes me:
 	   <p style="margin-top:0 !important;">01101110 01100101 01110010 01100100</p>
 	   </p>
-	   <p style="font-size:20px; color: #3F4650; font-weight:500;margin-top:0 !important;margin-bottom:0 !important;">A favorite quote of mine is:
-	   <blockquote>Sometimes people don't want to hear the truth because they don't want their illusions destroyed
-	   <p>-Friedrich Nietzsche</p>
-	   </blockquote>
-	   </p>
-
+	   <p style="font-size:20px; color: #3F4650; font-weight:500;margin-top:0 !important;margin-bottom:0 !important;">Quotes Resonate With Me:</p>
+	   <blockquote>Commitment is an act, not a word.
+       <p><cite>- Jean-Paul Satre</cite></p>
+     </blockquote>
+     <blockquote>When I let go of what I am, I become what I might be.
+       <p><cite>- Lao Tzu</cite></p>
+     </blockquote>
+     <blockquote>Try not! Do or do not. There is no try.
+       <p><cite>- Yoda</cite></p>
+     </blockquote>
 
 	  </div>
 	  </div>
@@ -626,6 +639,8 @@ blockquote p {
               </div><!--//item-->
             </section><!--//section-->
           </div><!--//main-body-->
+        </div>
+      </div>
           <!-- Javascript -->
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
           <!-- Latest compiled and minified JavaScript -->
