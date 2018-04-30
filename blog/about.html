@@ -8,14 +8,15 @@
   <!-- Meta -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="Jared R. Porter">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/styles/default.min.css">
   <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.1/highlight.min.js"></script>
 
   <script>hljs.initHighlightingOnLoad();</script>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <!-- <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  -->
   <style>
 
   /* ======= Base ======= */
@@ -70,9 +71,10 @@
   }
   .wrapper {
     background: #42A8C0;
-    max-width: 1000px;
     margin: 0 auto;
     position: relative;
+    width: 100%;
+    height:auto;
     -webkit-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     -moz-box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
@@ -81,11 +83,10 @@
     background: #42A8C0;
     position: absolute;
     right: 0;
-    width: 285px;
-    height: 100%;
-    min-height: 800px;
+    width: 385px;
+    height: inherit;
     color: #fff;
-	float: none;
+	  float: none;
   }
   .sidebar-wrapper a {
     color: #fff;
@@ -200,8 +201,12 @@
 
   .main-wrapper {
     background: #fff;
-    padding: 40px 40px;
-    padding-right: 320px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 480px;
+    width: 100%;
+    height: auto;
   }
   .main-wrapper .section-title {
     text-transform: uppercase;
@@ -341,64 +346,85 @@
     font-weight: 500;
   }
 
-  /* Extra small devices (phones, less than 768px) */
-  @media (max-width: 767px) {
-    .sidebar-wrapper {
-      position: static;
-      width: inherit;
-    }
-    .main-wrapper {
-      padding: 30px;
-    }
-    .main-wrapper .time {
-      position: static;
-      display: block;
-      margin-top: 5px;
-    }
-    .main-wrapper .upper-row {
-      margin-bottom: 0;
-    }
-  }
-  /* Small devices (tablets, 768px and up) */
-  /* Medium devices (desktops, 992px and up) */
-  @media (min-width: 992px) {
-    .skillset .level-title {
-      display: inline-block;
-      float: left;
-      width: 30%;
-      margin-bottom: 0;
-    }
-  }
   blockquote {
   background: rgb(153, 153, 153, 0.4);
-  border-left: 10px solid #ccc;
-  margin: .5em 10px;
-  padding: 0.5em 10px;
-  quotes: "\201C";
+  font-size: 1em;
+  border-left: .7em solid #ccc;
+  margin: .5em 0 .5em 0;
+  padding: 1em 1.5em .5em 2.5em;
+  position: relative;
 }
 blockquote:before {
   color: #ccc;
-  content: open-quote;
+  content: "\201C";
   font-size: 4em;
+  position: absolute;
+  left: 5px;
+  top: 0.6em;
   line-height: 0.1em;
-  margin-right: auto;
-  vertical-align: -0.4em;
 }
+
 blockquote:after {
   color: #ccc;
-  content: close-quote;
-  font-size: 4em;
+  content: "\201D";
+  font-size: 5em;
+  position: absolute;
+  right:3px;
+  bottom: 0em;
   line-height: 0.1em;
-  margin-left: auto;
-  vertical-align: bottom;
 }
-blockquote p {
-  display: inline;
+
+/* Small devices (tablets, 768px and up) */
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (max-width: 768px) {
+  .sidebar-wrapper {
+    position: static;
+    width: inherit;
+  }
+  .main-wrapper {
+    padding: 30px;
+  }
+  .main-wrapper .time {
+    position: static;
+    display: block;
+    margin-top: 5px;
+  }
+  .main-wrapper .upper-row {
+    margin-bottom: 0;
+  }
+  .item blockquote{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+  .sidebar-wrapper {
+    position: static;
+    width: inherit;
+  }
+  .main-wrapper {
+    padding: 30px;
+  }
+  .main-wrapper .time {
+    position: static;
+    display: block;
+    margin-top: 5px;
+  }
+  .main-wrapper .upper-row {
+    margin-bottom: 0;
+  }
+  .item blockquote{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 }
 </style>
 </head>
-
-
 <body>
   <div class="wrapper">
     <div class="sidebar-wrapper">
@@ -480,19 +506,18 @@ blockquote p {
 	   <p style="font-size:20px; color: #3F4650; font-weight:500;margin-top:0 !important;margin-bottom:0 !important;">One word that describes me:
 	   <p style="margin-top:0 !important;">01101110 01100101 01110010 01100100</p>
 	   </p>
+   <div class="item">
 	   <p style="font-size:20px; color: #3F4650; font-weight:500;margin-top:0 !important;margin-bottom:0 !important;">Quotes Resonate With Me:</p>
-	   <blockquote>Commitment is an act, not a word.
+	   <blockquote><p>Commitment is an act, not a word.</p>
        <p><cite>- Jean-Paul Satre</cite></p>
      </blockquote>
      <blockquote>When I let go of what I am, I become what I might be.
        <p><cite>- Lao Tzu</cite></p>
      </blockquote>
-     <blockquote>Try not! Do or do not. There is no try.
-       <p><cite>- Yoda</cite></p>
-     </blockquote>
-
+   </div>
+ </div>
 	  </div>
-	  </div>
+  </div>
     </div><!--//sidebar-container-->
     <div class="main-wrapper">
       <section class="section experiences-section">
@@ -505,6 +530,7 @@ blockquote p {
             </div><!--//upper-row-->
             <div class="school">Southern Utah University</div>
           </div><!--//meta-->
+        </div>
           <div class="item">
             <div class="meta">
               <div class="upper-row">
@@ -608,14 +634,13 @@ blockquote p {
               <li><span class="fa-li"><i class="fas fa-terminal fa-sm"></i></span>Teamed up in 2017 with <a href="https://www.dellemc.com/en-us/index.htm" target="_blank" style="font-style:italic;">Dell EMC</a> sponsors in an effort to provide girls with useful information on exciting STEM related career paths.</li>
             </ul>
           </div><!--//item-->
-
           <div class="item">
             <span class="project-title"><a href="http://thejporter.com/portfolio" target="_blank">Aspirations</a></span>
             <ul class="fa-ul">
               <li><span class="fa-li"><i class="fas fa-hashtag fa-sm"></i></span>Served as an Ambassador for this unique outreach program. Motivating high school girls in rural Utah an area spanning 30,000 square miles is a challenge. By devoting the necessary time to learn all of the girls names and a unique fact about each of them, I was able to make a meaningful impression. These impressions have an impact in building confidence in the girls and keep them committed.</li>
             </ul>
           </div><!--//item-->
-
+        </section>
           <section class="section projects-section">
             <h2 class="section-title"><i class="fa fa-chart-line"></i>&nbsp;&nbsp;Research</h2>
             <div class="item">
@@ -633,14 +658,13 @@ blockquote p {
             <div class="item">
               <span class="project-title"><a href="http://thejporter.com/portfolio" target="_blank">FLL (FIRST LEGO League)</a></span>
               <ul class="fa-ul">
-                <li>A twofold research project introducing a local elementary school to FIRST LEGO League, and then providing them with a learning environment to stimulate development in Science, Technology, Engineering, and Mathematics.</li>
+                <li>A two-fold research project introducing a local elementary school to FIRST LEGO League, and then providing them with a learning environment to stimulate development in Science, Technology, Engineering, and Mathematics.</li>
                 <p style="background-color:rgb(66, 168, 192, 0.1); margin:8px; padding:10px;">Under Dr. Dezhi Wu at Southern Utah University, our research titled <a href="http://thejporter.com/portfolio" target="_blank" style="font-style:italic;">Inspiring Youngsters to STEM Fields through FIRST LEGO Robots</a> was featured in the <a href="http://www.utahacademy.org/wp-content/uploads/2018/04/2018-Annual-Conference-Program.pdf#page=39" target="_blank" style="font-style:italic;">UTAH ACADEMY of Science, Arts, and Letters | Annual Conference 2018</a>.</p>
                 <li>The group of children I coached was the only first year elementary school to qualify to compete at state. The team performed consistent results during each of the three Robot Games.</li>
               </div><!--//item-->
             </section><!--//section-->
           </div><!--//main-body-->
-        </div>
-      </div>
+
           <!-- Javascript -->
           <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
           <!-- Latest compiled and minified JavaScript -->
