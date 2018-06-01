@@ -27,7 +27,7 @@ en: &en
   tags: 'Tags'
   theme_info:
   view: 'View'
-  landon: 'Landon's Resume|CV'
+  landon: 'Landons Resume | CV'
 en-us:
   <<: *en
 en-gb:
