@@ -27,8 +27,7 @@ en: &en
   tags: 'Tags'
   theme_info:
   view: 'View'
-  p4wned: 'P4wned'
-  pcheck: 'Password Check'
+  landon: 'Landon's Resume|CV'
 en-us:
   <<: *en
 en-gb:
