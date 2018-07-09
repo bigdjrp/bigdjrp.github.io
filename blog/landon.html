@@ -33,7 +33,7 @@
     font-weight: 700;
   }
   a {
-    color: #2d7788;
+    color: #2d4088;
     font-weight: 500;
     text-decoration: none;
     -webkit-transition: all 0.4s ease-in-out;
@@ -70,7 +70,7 @@
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
   .wrapper {
-    background: #42A8C0;
+    background: #4276c0;
     margin: 0px;
     position: relative;
     width: 100%;
@@ -80,10 +80,11 @@
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
   }
   .sidebar-wrapper {
-    background: #42A8C0;
+    background: #4276c0;
     position: absolute;
-    right: 0;
-    width: 385px;
+    margin-left: 100px;
+    margin-top: 100px;
+    width: 420px;
     height: inherit;
     color: #fff;
 	  float: none;
@@ -118,23 +119,21 @@
   }
   .sidebar-wrapper .profile-container {
     padding: 10px;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.3);
     text-align: center;
     color: #fff;
   }
   .sidebar-wrapper .profile-container img {
     padding: 0px;
-    margin-top: 20px;
+    margin-top: 5px;
     margin-bottom: 0 !important;
     width: 190px;
     height: auto;
-    border-radius: 5%;
-  /*  background: rgba(255, 255, 255, 0.9); */
-
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
   }
   .sidebar-wrapper .profile-container .box:hover {
-    width:490px;
-    height:490px;
+    width:500px;
+    height:500px;
   }
   .sidebar-wrapper .name {
     font-size: 32px;
@@ -200,18 +199,19 @@
 
   .main-wrapper {
     background: #fff;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 420px;
-    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 575px;
+    padding-right: 0;
+    margin-right: 0;
+    width: 1200px;
     height: auto;
   }
   .main-wrapper .section-title {
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 500;
-    color: #2d7788;
+    color: #2d4088;
     position: relative;
     margin-top: 0;
     margin-bottom: 5px;
@@ -230,7 +230,7 @@
     -moz-background-clip: padding;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    background: #2d7788;
+    background: #2d4088;
     text-align: center;
     padding-top: 8px;
     font-size: 16px;
@@ -260,7 +260,7 @@
   .main-wrapper .degree::before {
     content: " ";
     display: block;
-    border-bottom: 2px solid rgb(53, 134, 155, 0.7);
+    border-bottom: 2px solid rgb(45, 64, 136, 0.7);
   }
   .main-wrapper .job-title {
     color: #3F4650;
@@ -430,7 +430,7 @@ blockquote:after {
       <div class="profile-container">
        <img class="profile" src="https://bigdjrp.github.io/assets/images/landon.png" alt="" />
        <h1 class="name">Landon W. Porter</h1>
-        <h3 class="tagline">i create life-long relationships<h3/>
+        <h3 class="tagline">the one who brings others together<h3/>
         </div><!--//profile-container-->
         <div class="contact-container container-block">
           <ul class="fa-ul">
@@ -477,7 +477,7 @@ blockquote:after {
             <div class="w3-container w3-round w3-pale-red" style="width:90%">Building Relationships</div>
           </div>
         </div><!--//item-->
-        <div class="item" style="margin-bottom: 5px;">
+        <div class="item">
           <div class="w3-dark-grey w3-round">
             <div class="w3-container w3-round w3-pale-red" style="width:85%">Team Leadership</div>
           </div>
