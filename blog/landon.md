@@ -18,8 +18,7 @@ Utah Valley University
 ---
 ### Senior Sales Development Rep
 ##### 2017 - Present
-
-[BambooHR  |  Lindon, UT](https://www.bamboohr.com/)
+[BambooHR | Lindon, UT](https://www.bamboohr.com/)
 
 * Contact, qualify and set appointments for our sales team as the first point of contact
 * Identify, execute and follow-up on all opportunities to establish customer relationships
@@ -29,15 +28,13 @@ Utah Valley University
 
 ### Commissions Analyst
 ##### 2016 - 2017
-
-[Young Living, Essential Oil Company  |  Lehi, UT](https://www.youngliving.com/en_US/company/about/younglivingfarms/north-america/mona-ut-lavender-farm)
+[Young Living, Essential Oil Company | Lehi, UT](https://www.youngliving.com/en_US/company/about/younglivingfarms/north-america/mona-ut-lavender-farm)
 
 >Worked directly with assigned international and domestic markets in managing all member accounts from a commissions perspective. Responsible for auditing and verifying accuracy of monthly global commission payments. Provided analysis of members close to meeting rank/growth opportunities to help strengthen commission and recognition elements for Young Living.
 
 
 ### Logistics Assistant
 ##### 2013 - 2016
-
 [Nudge, Real Estate Education Company  |  Lindon, UT](https://nudge.com/)
 
 * Performed daily data entry and processed order forms. Managed event reports and weekly cash reports.
