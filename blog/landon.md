@@ -1,10 +1,8 @@
 <h1 align="center">Landon W. Porter
 </h1>
 
-<p align="center">landon.w.porter@gmail.com (801) 509 0286
+landon.w.porter@gmail.com (801) 509 0286
 [Landon on LinkedIn](https://www.linkedin.com/in/landon-porter-12a99586)
-
-</p>
 
  _Hardworking individual who is teachable and highly motivated. Possesses the ability to make significant contributions, develop lasting relationships, communicate effectively in a positive manner, and adapt quickly to changing environments._
 
