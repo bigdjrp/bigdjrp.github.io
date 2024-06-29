@@ -10,31 +10,31 @@
 
 ## Career Profile
 
-A creative and innovative thinker that takes a unique approach to solving problems. Not afraid to learn new technology nor explore a new way to accomplish a challenging problem while maintaining motivation.
+A dynamic professional and innovative thinker with a unique approach to solving problems. Known for strong interpersonal skills and a passion for teamwork, unafraid to learn new technologies or explore novel methods to tackle challenging issues. Experienced in leading cross-functional teams across diverse areas, including self-employment, while maintaining motivation and driving impactful, sustainable improvements.
 
 ## Skills & Proficiency
 
 #### Java
 Advanced
 
-#### C & C++
-Out of the game
+#### Mustache, Jinja (text templating)
+Advanced
 
 #### Python
 Advanced
 
-#### Bash
+#### Javascript
 Advanced
 
-#### Powershell
-Out of the game
+#### Elasticsearch
+Expert
 
-#### MySQL
+#### Kafka
 Intermediate
 
 ## Career Goal
 
-Never become like the fool in the story: "Tail of the Stairs". Always remember who provided the path for my successes.
+Leveraging a diverse professional background and strong interpersonal skills, my career goal is to solve complex challenges in a collaborative environment. I aim to lead cross-functional teams, utilizing a passion for teamwork and continuous learning to drive innovative solutions. Ultimately, I aspire to create impactful and sustainable improvements for the organization and its stakeholders.
 
 ## Interesting Facts
 
