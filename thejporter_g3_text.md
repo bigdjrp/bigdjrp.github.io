@@ -143,3 +143,15 @@ Two Tycoons LLC | Cedar City, UT
 
 - Featured in the UTAH ACADEMY of Science, Arts, and Letters Annual Conference 2018.
 - Coached the only first-year elementary school team to qualify for state competition.
+
+---
+
+- Experienced data and operations professional with a strong track record in pioneering critical issue identification, engineering innovative solutions, and managing complex technical solutions. 
+- Adept at mastering and implementing advanced technologies and systems, with extensive experience in Azure architecture, cloud integration, and remote management.
+- Demonstrated leadership in streamlining operations, enhancing efficiency, and maintaining cost-effective processes.
+- Skilled in developing comprehensive job descriptions and contributing to strategic tech initiatives.
+- Proven ability to manage and deliver complex tech stacks under stringent security constraints.
+
+> With a solid foundation in both technical and managerial roles, I have consistently driven success through innovative problem-solving
+> and effective team management.My diverse experience in data analysis, tech solutions, and operations management positions me as a versatile
+> professional capable of excelling in dynamic and challenging environments.
