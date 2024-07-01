@@ -11,7 +11,7 @@
 
 **One word that describes me:**
 01101110 01100101 01110010 01100100 ->
-<span style="float:right;padding:10px;color:#f5e1f5">n e r d</span>
+<span style="float:right;padding:10px;color:white">n e r d</span>
 
 **Quotes Resonate With Me:**
 
