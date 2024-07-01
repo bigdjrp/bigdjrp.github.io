@@ -2,18 +2,25 @@
 
 ### The devoted existential ethical hacker
 
-* <thejporter@outlook.com>
-* [thejporter.com](https://thejporter.com)
-* [LinkedIn](https://www.linkedin.com/in/the-jared-porter)
-* [bigdjrp.github.io](https://bigdjrp.github.io)
+<ul style="list-style-type:none;margin:0;padding:0;overflow:hidden;">
+
+<li style="display:block;float:left;padding:16px;color:white;text-align:center;text-decoration:none">
+<a href="mailto:thejporter@outlook.com">Email Me!</a>
+</li>
+
+<li style="display:block;float:left;padding:16px;color:white;text-align:center;text-decoration:none"> <a href=https://thejporter.com>https://thejporter.com</li>
+<li style="display:block;float:left;padding:16px;color:white;text-align:center;text-decoration:none"><a href=https://www.linkedin.com/in/the-jared-porter>LinkedIn</li>
+
+<li style="display:block;float:left;padding:16px;color:white;text-align:center;text-decoration:none"><a href=https://bigdjrp.github.io>Personal GitHub Site</a></li>
+</ul>
 
 ## Interesting Facts
 
 **One word that describes me:**
 01101110 01100101 01110010 01100100 ->
-<span style="float:right;padding:10px;color:white">n e r d</span>
+<span style="float:right;padding:10px;color:#f5e1f5">n e r d</span>
 
-**Quotes That Resonate With Me:**
+**Quotes Resonate With Me:**
 
 > Commitment is an act, not a word.
 >
