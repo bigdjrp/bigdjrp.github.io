@@ -13,7 +13,7 @@
 01101110 01100101 01110010 01100100 ->
 <span style="float:right;padding:10px;color:white">n e r d</span>
 
-**Quotes Resonate With Me:**
+**Quotes That Resonate With Me:**
 
 > Commitment is an act, not a word.
 >
